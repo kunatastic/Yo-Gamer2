@@ -1,0 +1,34 @@
+.stats {
+  padding-top: 100px;
+  background-color: var(--secondary-color);
+  overflow: auto;
+  height: 520px;
+}
+
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+.stats .grid h3 {
+  font-size: 35px;
+}
+
+.stats .grid .p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stats::before,
+.stats::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  bottom: -300px;
+  right: 0;
+  left: 0;
+  background-color: var(--hero2-color);
+  transform: skewY(4 deg);
+  z-index: 0;
+}

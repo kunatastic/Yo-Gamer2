@@ -1,15 +1,16 @@
 .showcase {
   height: 400px;
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--secondary-color);
   position: relative;
 }
 
 .showcase h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .showcase p {
+  font-size: 17px;
   margin: 20px 0;
 }
 
@@ -51,8 +52,9 @@
   bottom: -70px;
   right: 0;
   left: 0;
-  background-color: #fff;
+  background-color: var(--secondary-color);
   transform: skewY(-4deg);
+  z-index: 0;
 }
 
 .showcase-form h2 {
@@ -69,7 +71,7 @@
 }
 .showcase-text .btn-outline:hover {
   color: var(--primary-color);
-  background-color: #fff;
+  background-color: var(--secondary-color);
 }
 
 .showcase-form .btn-primary {
@@ -78,6 +80,6 @@
 
 .showcase-form .btn-primary:hover {
   color: var(--primary-color);
-  background-color: #fff;
-  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  /* border: 1px solid var(--primary-color); */
 }
