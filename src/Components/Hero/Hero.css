@@ -2,7 +2,7 @@
   padding-top: 100px;
   background-color: var(--secondary-color);
   overflow: auto;
-  height: 520px;
+  height: 600px;
 }
 
 .stats-heading {
@@ -25,10 +25,11 @@
   position: absolute;
   height: 100px;
   width: 100%;
-  bottom: -300px;
+  bottom: -369px;
   right: 0;
   left: 0;
   background-color: var(--hero2-color);
-  transform: skewY(4 deg);
+  /* background-color: red; */
+  transform: skewY(4deg);
   z-index: 0;
 }

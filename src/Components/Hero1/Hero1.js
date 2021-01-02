@@ -3,9 +3,9 @@ import "./Hero1.css";
 function Hero1() {
   return (
     <>
-      <div className="hero">
+      <div className="hero1">
         <div className="container">
-          <h3 className="hero-heading text-center my-1">
+          <h3 className="hero1-heading text-center my-1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             libero vitae quidem sapiente cum modi tenetur ipsum provident, amet
             laudantium.

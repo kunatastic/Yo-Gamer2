@@ -2,11 +2,12 @@
 
 :root {
   --primary-color: #252525;
+  /* --primary-color: #252525; */
   --secondary-color: rgb(76, 207, 24);
   /* --secondary-light-color: rgba(0, 0, 0, 0.534); */
   --card-color: #fff;
   --underline-color: #b4becb;
-  --hero2-color: rgb(0, 255, 234);
+  --hero2-color: rgb(184, 255, 184);
 }
 
 * {

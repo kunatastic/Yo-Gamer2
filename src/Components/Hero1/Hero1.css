@@ -1,34 +1,35 @@
-.hero {
+.hero1 {
   padding-top: 100px;
   background-color: var(--hero2-color);
   overflow: auto;
-  height: 520px;
+  height: 600px;
+  color: var(--primary-color);
 }
 
-.hero-heading {
+.hero1-heading {
   max-width: 500px;
   margin: auto;
 }
 
-.hero .grid h3 {
+.hero1 .grid h3 {
   font-size: 35px;
 }
 
-.hero .grid .p {
+.hero1 .grid .p {
   font-size: 20px;
   font-weight: bold;
 }
 
-/* .hero::before,
-.hero::after {
+.hero1::before,
+.hero1::after {
   content: "";
   position: absolute;
   height: 100px;
   width: 100%;
-  bottom: -300px;
+  bottom: -950px;
   right: 0;
   left: 0;
-  background-color: var(--hero2-color);
-  transform: skewY(4 deg);
+  background-color: var(--primary-color);
+  transform: skewY(-2deg);
   z-index: 0;
-} */
+}
