@@ -19,7 +19,7 @@
   font-weight: bold;
 }
 
-.stats::before,
+/* .stats::before,
 .stats::after {
   content: "";
   position: absolute;
@@ -28,8 +28,8 @@
   bottom: -369px;
   right: 0;
   left: 0;
-  background-color: var(--hero2-color);
-  /* background-color: red; */
-  transform: skewY(4deg);
+  background-color: var(--hero2-color);*/
+/* background-color: red; */
+/*transform: skewY(4deg);
   z-index: 0;
-}
+} */

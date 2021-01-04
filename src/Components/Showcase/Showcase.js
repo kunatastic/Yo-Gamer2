@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import LoginForm from "../Showcase-Forms/Login-form/Login-Form";
+import SigninForm from "../Showcase-Forms/Signin-Form/Signin-Form";
 import "./showcase.css";
 
 function Showcase() {
+  const [signin, setSignin] = useState(true);
   return (
     <>
       <div className="showcase">
@@ -18,37 +21,11 @@ function Showcase() {
             </a>
           </div>
           <div className="showcase-form card">
-            <h2>Request a demo</h2>
-            <form>
-              <div className="form-control">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  autoComplete="off"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <input
-                  type="text"
-                  name="company"
-                  placeholder="Company Name"
-                  autoComplete="off"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  autoComplete="off"
-                  required
-                />
-              </div>
-              <input type="submit" value="Send" className="btn btn-primary" />
-            </form>
+            {signin ? (
+              <LoginForm send={setSignin} />
+            ) : (
+              <SigninForm send={setSignin} />
+            )}
           </div>
         </div>
       </div>

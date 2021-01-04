@@ -35,7 +35,8 @@
 }
 
 .showcase-form input[type="text"],
-.showcase-form input[type="email"] {
+.showcase-form input[type="email"],
+.showcase-form input[type="password"] {
   border: 0;
   width: 100%;
   border-bottom: 1px solid var(--underline-color);
@@ -66,10 +67,12 @@
   outline: none;
 }
 
-.showcase-text .btn-outline {
+.showcase-text .btn-outline,
+.showcase-form .btn-outline {
   transition: 0.5s all;
 }
-.showcase-text .btn-outline:hover {
+.showcase-text .btn-outline:hover,
+.showcase-form .btn-outline:hover {
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
